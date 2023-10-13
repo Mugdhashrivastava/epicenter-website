@@ -1,0 +1,57 @@
+.navbar li{
+    float:right;
+    list-style: none;
+    background-color: transparent;
+    text-decoration: none;
+    margin : 3px 3px;
+    padding:10px 10px;
+
+
+}
+
+
+.navbar ul{
+    overflow :auto;
+
+}
+
+.navbar li a{
+    padding : 3px 3px;
+    text-decoration: none;
+}
+
+.img1{
+    object-fit: cover; 
+
+
+}
+
+
+.navbar{
+display: flex;
+
+}
+
+.dropdown{
+display:inline-block;
+position:relative;
+background-color: aqua;
+
+}
+
+.dd content{
+    display: none;
+    position: absolute;
+}
+
+.dd content a{
+    display:block;
+  }
+  
+ .dd content a:hover{
+  display:block;
+}
+
+.text{
+    float: right;
+}
